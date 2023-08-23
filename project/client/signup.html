@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Spotify signup
+    </title>
+
+</head>
+<body style="background: #06600afd;">
+
+<form  style="border:1px solid #ccc">
+  <div class="container">
+    <h1 style="color: #ccc;">Sign Up</h1>
+    <p style="color: #ccc;">Please fill in this form to create an account.</p>
+    
+    <label ><b>First name</b></label>
+    <input id="firstname" type="text" placeholder="Enter name" value=""/>
+
+    <label ><b>Last name</b></label>
+    <input id="lastname" type="text" placeholder="Enter Last name" value=""/>
+
+    <label ><b>Username</b></label>
+    <input id="username" type="text" placeholder="Enter Username" value=""/>
+
+    <label ><b>Email</b></label>
+    <input id="email" type="text" placeholder="Enter Email" value="" />
+
+    <label ><b>Password</b></label>
+    <input id="password" type="password" placeholder="Enter Password"  value=""/>
+      
+    <button id="SubmitButton" type="button" >Submit</button>
+    
+
+  </div>
+  <p style="color:#ccc ;">Already a member | <a href="http://localhost:5500/login/login.html" style="color: #ccc;">Login here</a></p>
+</form>
+<script src="./main.js"></script>
+
+<style>
+  * {
+    box-sizing: content-box;
+    width: 75%;
+    margin: auto;
+    margin-top: 0.7rem;
+    font-family: sans-serif;
+    
+  }
+
+  label {
+    color: #ccc;
+  }
+
+  form {
+    border: 1px solid black;
+    background: #010f01;
+    border-radius: 10px;
+  }
+
+  p {
+    text-align: center;
+    padding-bottom: 28px;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0px 30px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  button {
+    background-color: #f44336;
+    color: white;
+    width: 160px;
+    height: 43px;
+    margin: 20px 28px;
+    border: double;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+
+
+  button:hover {
+    opacity: 1;
+  }
+
+  #ResetButton {
+    background-color: #f44336;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    margin: auto;
+  }
+</style>
+
+</body>
+</html>
